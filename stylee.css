@@ -1,0 +1,186 @@
+/* === ROOT STYLES === */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f7fa;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* === HEADER === */
+.header {
+  background-color: #003366;
+  color: white;
+  padding: 10px 0;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.logo-img {
+  height: 60px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin: 0 10px;
+  color: white;
+  font-weight: 500;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #ffd700;
+  border-bottom: 2px solid #ffd700;
+}
+
+/* === HERO === */
+.hero {
+  background: linear-gradient(to right, #003366, #005fa3);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero .btn {
+  background: #ffd700;
+  color: #003366;
+  padding: 12px 24px;
+  margin-top: 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* === SECTION === */
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #003366;
+}
+
+/* === PROFIL PAGE === */
+.profil-page {
+  padding: 60px 20px;
+}
+
+.profil-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.profil-img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.profil-text ul {
+  padding-left: 20px;
+}
+
+/* === BERITA === */
+.berita {
+  padding: 60px 20px;
+}
+
+.berita-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.berita-item {
+  background-color: white;
+  width: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.berita-item:hover {
+  transform: scale(1.03);
+}
+
+.berita-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.berita-info {
+  padding: 15px;
+}
+
+.berita-info h3 {
+  margin-top: 0;
+  color: #003366;
+}
+
+/* === KONTAK === */
+.kontak {
+  padding: 60px 20px;
+}
+
+.kontak-info {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.map-container {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* === FOOTER === */
+.footer {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* === BUTTON === */
+.btn {
+  background-color: #003366;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005fa3;
+}
+
+.btn-load-wrapper {
+  text-align: center;
+  margin-top: 30px;
+}
